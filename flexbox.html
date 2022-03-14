@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .center {
+            margin: auto;
+            width: 60%;
+            border: 3px solid #73AD21;
+            padding: 10px;
+            text-align: center;
+        }
+        img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+        }
+        .position {
+            position:absolute;
+            right: 0px;
+            width: 300px;
+            border: 3px solid #73AD21;
+            padding: 10px;
+        }
+        .right {
+            float: right;
+            width: 300px;
+            border: 3px solid #73AD21;
+            padding: 10px;
+        }
+        .container {
+            background-color:orange;
+            display: flex;
+        }
+        div {
+            flex: 1;
+        } */
+        .sample {
+            flex: 1;
+        }
+    </style>
+</head>
+<body>
+    <h2>Center Align Element</h2>
+    <p>To horizontally center a block element (like div), use margin: auto;</p>
+    <div class="center">
+        <p>Hello World! But wait! Why is the text on the left?</p>
+    </div>
+    <br><br>
+    <img src="DSC_0264.jpg">
+    <br><br>
+    <div class="poisition">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut la</p>
+    </div>
+    <nav class="container">
+        <div style="background-color:teal">A</div>
+        <div class="sample" style ="background-color:red">B</div>
+        <div style="background-color:green;">C</div>
+    </nav>
+</body>
+</html>
